@@ -1,0 +1,188 @@
+from art import tprint as fonts
+import os, sys
+
+def delete():
+	if sys.platform == "win32":
+		os.system("cls")
+	else:
+		os.system("clear")
+d = '\033[1;32m'
+a  = '\033[1;34m'
+b = '\033[1;35m'
+n = '\033[1;31m'
+delete()
+r = d+ """███████╗░█████╗░███╗░░██╗████████╗░██████╗░░░░░░░░░░░░░░░
+██╔════╝██╔══██╗████╗░██║╚══██╔══╝██╔════╝░░░░░░░░░░░░░░░
+█████╗░░██║░░██║██╔██╗██║░░░██║░░░╚█████╗░░░░░░░░░░░░░░░░
+██╔══╝░░██║░░██║██║╚████║░░░██║░░░░╚═══██╗░░░░░░░░░░░░░░░
+██║░░░░░╚█████╔╝██║░╚███║░░░██║░░░██████╔╝░░░░░░░░░░░░░░░
+╚═╝░░░░░░╚════╝░╚═╝░░╚══╝░░░╚═╝░░░╚═════╝░░░░░░░░░░░░░░░░
+"""+a
+
+
+print(r)
+k = input("""\033[1;36m[-_-_-_-]Menuni tanlang
+""" """\033[1;33m
+[*]script haqida
+________________
+[/]Fontlar
+________________
+[+]Telegram kanalimiz
+________________
+
+""""""\033[1;36m[-_-_-_-] belgini yozing: """)
+delete()
+if k == '*':
+	print("Ushbu scriptda siz 19 xil termux fontlar orqali ismlaringizga logo nik yasay olasiz.\nDasturchi: @darknet_off1cial\nGoya muallifi: @anonim_hacker_007\kanalimiz: @termux_private")
+	
+if k == '+':
+	os.system("termux-open-url httpz://t.me/termux_private")
+if k == '/':
+			delete()
+			dar = input("""\033[1;36m┈┈█████▒┈▒█████┈┈┈┈███▄┈┈┈┈█┈▄▄▄█████▓┈┈██████┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+▓██┈┈┈▒┈▒██▒┈┈██▒┈┈██┈▀█┈┈┈█┈▓┈┈██▒┈▓▒▒██┈┈┈┈▒┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+▒████┈░┈▒██░┈┈██▒┈▓██┈┈▀█┈██▒▒┈▓██░┈▒░░┈▓██▄┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+░▓█▒┈┈░┈▒██┈┈┈██░┈▓██▒┈┈▐▌██▒░┈▓██▓┈░┈┈┈▒┈┈┈██▒┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+░▒█░┈┈┈┈░┈████▓▒░┈▒██░┈┈┈▓██░┈┈▒██▒┈░┈▒██████▒▒┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┈▒┈░┈┈┈┈░┈▒░▒░▒░┈┈░┈▒░┈┈┈▒┈▒┈┈┈▒┈░░┈┈┈▒┈▒▓▒┈▒┈░┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┈░┈┈┈┈┈┈┈┈░┈▒┈▒░┈┈░┈░░┈┈┈░┈▒░┈┈┈┈░┈┈┈┈░┈░▒┈┈░┈░┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┈░┈░┈┈┈┈░┈░┈░┈▒┈┈┈┈┈┈░┈┈┈░┈░┈┈┈░┈┈┈┈┈┈░┈┈░┈┈░┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┈┈┈┈┈┈┈┈┈┈┈┈░┈░┈┈┈┈┈┈┈┈┈┈┈┈░┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈░┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈"""
+"""\033[1;31m  fontlarni tanlang
+
+01-font
+02-font
+03-font
+04-font
+05-font
+06-font
+07-font
+08-font
+09-font
+10-font
+11-font
+12-font
+13-font
+14-font
+15-font
+16-font
+17-font
+18-font
+19-font
+
+			
+			
+fontlar berilgan sonni yozing""")
+
+			if dar == '1':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;31m"""), "anonim")
+			if dar == '2':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;31m"""), "***")
+			if dar == '3':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;31m"""), "777")
+			if dar == '4':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;31m"""), "A")
+			if dar == '5':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;31m"""), "01KQ\n\n")
+			if dar == '6':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;31m"""), "PQKAM")
+			if dar == '7':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;31m"""), "iiiq\n")
+			if dar == '8':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;32m"""), "mno")
+			if dar == '9':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;32m"""), "saq")
+			if dar == '10':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;32m"""), "p2p")
+			if dar == '11':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;32m"""), "gta")
+			if dar == '12':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;32m"""), "oqp")
+			if dar == '13':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;32m"""), "python")
+			if dar == '14':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;32m"""), "php")
+			if dar == '15':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;32m"""), "http")
+			if dar == '16':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;32m"""), "LLL")
+			if dar == '17':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;32m"""), "7777")
+			if dar == '18':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;32m"""), "java")
+			if dar == '19':
+				delete()
+				while True:
+					
+					fonts(input("""\033[1;32mso'z yozng: \033[1;32m"""), "91qkq")
+					
+else:
+					print("dasturchi: @darknet_off1cial")
+					
+				
+
+
+	
+
+	
+
+		
+
+	
+			
+
